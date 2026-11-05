@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8975726050017256997}
   - component: {fileID: 3490840660951881258}
   - component: {fileID: 473234703128626189}
+  - component: {fileID: 4375929356492890178}
   m_Layer: 0
   m_Name: Enemy_Red
   m_TagString: Untagged
@@ -112,3 +113,18 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &4375929356492890178
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5344341593491231127}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6158d5b31f8791449e7124451a90696, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyMovement
+  playerHead: {fileID: 0}
+  moveSpeed: 0.5
+  stopDistance: 1

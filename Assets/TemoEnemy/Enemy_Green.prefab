@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 9073697037132715916}
   - component: {fileID: 2240718685496629468}
   - component: {fileID: 6201564272957337504}
+  - component: {fileID: 2187152676307416882}
   m_Layer: 0
   m_Name: Enemy_Green
   m_TagString: Untagged
@@ -112,3 +113,18 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &2187152676307416882
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5781246967659352192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6158d5b31f8791449e7124451a90696, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyMovement
+  playerHead: {fileID: 0}
+  moveSpeed: 0.5
+  stopDistance: 1
