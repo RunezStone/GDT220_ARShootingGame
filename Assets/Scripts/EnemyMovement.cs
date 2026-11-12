@@ -5,7 +5,7 @@ public class EnemyMovement : MonoBehaviour
     // A. References
     public Transform playerHead;
     public float moveSpeed = 0.5f;
-    public float stopDistance = 1f;
+    public float stopDistance = 3f;
 
     // B. Update
     void Update()
